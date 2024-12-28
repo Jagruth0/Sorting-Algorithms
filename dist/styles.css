@@ -1,0 +1,63 @@
+body{
+    background-color: #139186;
+    background-image: url(../src/assets/mirrored-squares.png);
+}
+html {
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    font-family: "McLaren", cursive;
+    color: #eee;
+}
+.data{
+    width: 0.5vb;
+    background-color: whitesmoke;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container-ver{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.algorithms{
+    display: flex;
+    gap: 20px
+}
+.algorithms{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-ver>.container{
+    width: 100%;
+}
+.container.arr{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2vb;
+    height: 65vh;
+    align-items: flex-end;
+}
+.button{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+    font-family: ;
+    
+}
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
